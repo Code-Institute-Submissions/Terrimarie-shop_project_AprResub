@@ -1,3 +1,4 @@
+
 {% extends "base.html" %}
 {% load static %}
 
@@ -17,12 +18,11 @@
                     New sportswear here
                 </h1>
                 <div class="my-5">
-                    <h3>
-                        <a href="" class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3">Shop Sportswear</a>
-                    </h3>
+                    <h4>
+                        <a href="{% url 'products' %}" class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3">Shop Sportswear</a>
+                    </h4>
                 </div>
             </div>
         </div>
     </div>
-
 {% endblock %}
