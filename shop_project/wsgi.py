@@ -1,4 +1,5 @@
 """
+some code taken from boutique abo project
 WSGI config for shop_project project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.

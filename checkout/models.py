@@ -1,5 +1,5 @@
 import uuid
-
+# Some code here taken from boutique ado project
 from django.db import models
 from django.db.models import Sum
 from django.conf import settings

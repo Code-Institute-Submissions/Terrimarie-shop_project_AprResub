@@ -2,8 +2,8 @@ from django.shortcuts import render, redirect, reverse, HttpResponse, get_object
 from django.contrib import messages
 
 from products.models import Product
+# Some code here taken from boutique ado project
 
-# Create your views here.
 
 def view_bag(request):
     """ A view that renders the bag contents page """
