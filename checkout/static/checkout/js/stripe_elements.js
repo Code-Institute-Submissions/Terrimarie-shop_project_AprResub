@@ -1,5 +1,5 @@
 /*
-    Some code here taken from the boutique ado project
+    Code here taken from the boutique ado project
     Core logic/payment flow for this comes from here:
     https://stripe.com/docs/payments/accept-a-payment
     CSS from here: 
