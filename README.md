@@ -15,7 +15,10 @@ ____________________
 1. Shopper - See the list of sportswear products 1. Be able to select a product.
 2. Shopper - See specific category of products 2. Quickly find products you are interested in without searching through all the products.
 3. Shopper - View all product details 3. See the price, description, product image, product size and rating.
-4. Shopper - View my total purchase	Stopping me from over spending. 4. User accounts and registration	
+4. Shopper - View my total purchase	4. Stopping me from over spending. 
+
+User accounts and registration	
+______________________________
 5. Site user - Register for an account 5. Have a private account to be able to view my profile.
 6. Site user - Login and log out 6. Be able to access my personal account info.
 7. Site user - Recover my password 7. Make sure my account registration worked.
@@ -29,7 +32,9 @@ _____________________
 12. Shopper - Sort multiple products all at once 12. Find the best priced or rated products by category such as clothing.
 13. Shopper - Search for a product by name or description 13. Find a product I would like to buy.
 14. Shopper - See what I have searched for and the number of results 14. Decide if the product I want is available
-		Check out	
+
+Check out	
+__________
 15. Shopper - Select the size and quantity of a product when buying 15. Making sure I do not show the wrong product quantity or size.
 16. Shopper - View items in the bag to be bought 16. See the total cost.
 17. Shopper - Change the quantity if items in the bag 17. Change the items before checkout.
@@ -45,8 +50,6 @@ __________________________
 24. Owner - Delete the product 24. Delete items that are no longer for sale
 
 ## Wireframe
-Watch readme before completing this file....
-Create a wireframe and add the link here.....
 .................
 
 ## Features

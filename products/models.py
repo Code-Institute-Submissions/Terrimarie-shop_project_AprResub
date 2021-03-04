@@ -1,6 +1,5 @@
-  
 from django.db import models
-
+# code from boutique abo
 
 class Category(models.Model):
 
