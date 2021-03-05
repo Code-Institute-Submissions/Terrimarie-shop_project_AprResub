@@ -53,10 +53,32 @@ __________________________
 .................
 
 ## Features
-..............
 
 ### Existing Features
-............
+
+* Shop sportswear button in top left hand corner brings you back to the home page.
+
+* Shops sportwear botton under new sportswear here bring you to all the products.
+
+* Search bar allows you to search the whole site.
+
+* My Account button allos you to select Manage Products, My Profile and Log out or log in dependant on whether you are loggged in or out at the time. 
+
+* Manage Products button, clicking on this button brings you to the products form where you can add products.
+
+* My Profile button brings you to your profile where you can see you profile details and what you have bought.
+
+* Log out button logs you out.
+
+* Log in button allows you to log in.
+
+* Sign up allows you to sign up for an account.
+
+* The bag button allows you to always she how much might spend.
+
+* Sort sportswear button allows you to sort through all the sports wear by Price, Rating, Category or All Products.
+
+* Sportswear clothing button allow you to search using categorys like Jacket, Jumper, Hoodie, Top, Leggings, Joggers, Dress and All Products. All these buttons like Jumper once clicked take you to all the jumpers on the website.
 
 ### Features Left to Implement
 ...............
@@ -94,16 +116,27 @@ __________________________
     * Used to implement the payment system in the project.
 
 ## Testing
-......
 
+Tools used for Testing
+
+* Front end 
+    * W3C Markup Validation Service
+        
+* W3C CSS Validation Service
+
+* JSHINT 
+
+* Back end 
+    * Visual Studio Django debugger 
+    
 # Bug fix
 ...........
 
 ## Deployment
-...........
 
-## Credits
-.........
+Delpoying to Heroku
+
+.....................
 
 ## Media
 
@@ -114,6 +147,8 @@ __________________________
 ![link to kaggle file](https://www.kaggle.com/search?q=normal_clothes)
 
 ## Acknowledgements
+
+* I received inspiration from the Boutique Ado project. I made the project my own by chosing to add my own feature and changing some of the controls of the website and names.
 
 # Credit 
 
