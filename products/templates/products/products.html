@@ -82,6 +82,21 @@
                                             {% else %}
                                                 <small class="text-muted">No Rating</small>
                                             {% endif %}
+                                            <!-- My ratings code -->
+                                            <div class="row">
+                                                <div class="col text-center">
+                                                    <img src="{{object.image.url}}" class="rounded" width="100%" alt="">
+                                                </div>
+                                                <div class="col text-center">
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                </div>
+                                                <div id="confirm-box"></div>
+                                            </div>
+                                            <!-- ratings code -->
                                             {% if request.user.is_superuser %}
                                                 <small class="ml-3">
                                                     <a href="{% url 'edit_product' product.id %}">Edit</a> | 

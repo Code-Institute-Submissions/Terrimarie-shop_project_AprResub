@@ -17,6 +17,8 @@ from django.contrib import admin
 from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
+# my code for ratings
+from ratings.views import main_view
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -26,4 +28,11 @@ urlpatterns = [
     path('bag/', include('bag.urls')),
     path('checkout/', include('checkout.urls')),
     path('profile/', include('profiles.urls')),
+    # my code for ratings
+    path('', main_view, name="main-view"),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+# my code for the ratings 
+
+urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_URL)
+urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

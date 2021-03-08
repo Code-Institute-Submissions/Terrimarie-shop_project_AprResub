@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 
 import os
+import dj_database_url
 
 from pathlib import Path
 
@@ -48,6 +49,8 @@ INSTALLED_APPS = [
     'bag',
     'checkout',
     'profiles',
+    # my code
+    'ratings',
 
     # Other
     'crispy_forms',
@@ -123,10 +126,13 @@ WSGI_APPLICATION = 'shop_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
 
+DATABASES = {
+    'default': dj_database_url.parse('postgres://oqomtviaizmmcc:4e4df0823557edaafa840cd263d5677975c8dcc3873128f550b577418c68490f@ec2-52-213-167-210.eu-west-1.compute.amazonaws.com:5432/dbdegv2qk944sh')
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
