@@ -1,4 +1,4 @@
 from django.test import TestCase
 
-
-# Some code here taken from boutique ado project
+# Create your tests here.
+# code from boutique ado

@@ -1,5 +1,5 @@
 import uuid
-# code here taken from boutique ado project
+# code from boutique abo
 from django.db import models
 from django.db.models import Sum
 from django.conf import settings
@@ -61,6 +61,7 @@ class Order(models.Model):
     def __str__(self):
         return self.order_number
 
+
 class OrderLineItem(models.Model):
     order = models.ForeignKey(Order, null=False, blank=False, on_delete=models.CASCADE, related_name='lineitems')
     product = models.ForeignKey(Product, null=False, blank=False, on_delete=models.CASCADE)
@@ -78,3 +79,4 @@ class OrderLineItem(models.Model):
 
     def __str__(self):
         return f'SKU {self.product.sku} on order {self.order.order_number}'
+        
