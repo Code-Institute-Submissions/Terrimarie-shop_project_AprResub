@@ -138,7 +138,7 @@ Check the names of each file and folder
 
 ## Deployment
 
-Delpoying to Heroku
+Deploying to Heroku
 
 ## Acknowledgements
 

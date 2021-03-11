@@ -137,7 +137,7 @@ else:
     }
 
 #DATABASES = {
-    #'default': dj_database_url.parse('postgres://oqomtviaizmmcc:4e4df0823557edaafa840cd263d5677975c8dcc3873128f550b577418c68490f@ec2-52-213-167-210.eu-west-1.compute.amazonaws.com:5432/dbdegv2qk944sh')
+#    'default': dj_database_url.parse('postgres://jsywczpmyjjgvo:0ba4569481d5efee555b651322c1dc7067bfa271fc94f43e15b803cb48d1e256@ec2-176-34-222-188.eu-west-1.compute.amazonaws.com:5432/dsp3h9ltprlje')
 #}
 
 # Password validation
